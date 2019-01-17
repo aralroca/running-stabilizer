@@ -3,6 +3,9 @@ header {
   height: 40px;
   font-size: 14px;
   color: white;
+  position: absolute;
+  width: 100vw;
+  z-index: 1
 }
 
 header h1 {

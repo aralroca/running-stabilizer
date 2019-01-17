@@ -52,6 +52,8 @@
     "prop-types": "15.6.2",
     "react": "16.8.0-alpha.0",
     "react-dom": "16.8.0-alpha.0",
-    "react-form-uncontrolled": "0.3.2"
+    "react-form-uncontrolled": "0.3.2",
+    "@tensorflow-models/posenet": "0.2.3",
+    "@tensorflow/tfjs": "0.14.2"
   }
 }

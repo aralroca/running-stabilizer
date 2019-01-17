@@ -9,9 +9,16 @@ font-family: sans-serif
 
 iframe {
   width: 100%;
-  height: calc(100vh - 40px)
+  height: calc(100vh - 40px);
+  margin: 40px 0;
 }
 
 html, body {
-  overflow: hidden
+  overflow: hidden;
+  background-color: black
+}
+
+.video{
+  position: absolute;
+  opacity: 0
 }

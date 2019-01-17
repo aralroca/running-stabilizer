@@ -9,10 +9,9 @@ export default function Iframe({ videoID }) {
   return (
     <iframe
       title="Video watcher"
-      src={`https://www.youtube.com/embed/${videoID}`}
-      frameBorder="0"
+      src={`https://www.youtube.com/embed/${videoID}?autoplay=1`}
+      frameBorder={0}
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
     />
   )
 }
