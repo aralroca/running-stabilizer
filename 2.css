@@ -40,3 +40,31 @@ header form .browse {
   margin-right: 10px;
   color: #212121;
 }
+*,
+*::after,
+*::before {
+margin: 0;
+padding: 0;
+box-sizing: inherit;
+font-family: sans-serif
+}
+
+iframe {
+  width: 100%;
+  height: calc(100vh - 40px);
+  margin: 40px 0;
+  transition-duration: 0.3
+}
+
+html, body {
+  overflow: hidden;
+  background-color: black
+}
+
+.video{
+  position: absolute;
+  opacity: 0
+}
+
+
+/*# sourceMappingURL=2.css.map*/
