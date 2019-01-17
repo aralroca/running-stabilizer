@@ -11,6 +11,7 @@ iframe {
   width: 100%;
   height: calc(100vh - 40px);
   margin: 40px 0;
+  transition-duration: 0.3
 }
 
 html, body {

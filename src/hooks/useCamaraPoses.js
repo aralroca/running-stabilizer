@@ -6,7 +6,7 @@ let video
 
 export default function useCamaraPoses(
   {
-    milliseconds = 500,
+    milliseconds = 50,
     weight = 0.5,
     imageScaleFactor = 0.5,
     outputStride = 16,
