@@ -13,7 +13,10 @@ export default function App(){
   const onBrowse = useCallback(({ id }) => setVideoID(id), [])
   const { videoElement, poses } = useCamaraPoses()
 
-  console.log({ poses })
+  // Get nose poses
+  const { x = 150, y = 150 } = poses ? poses.keypoints[0].position : {}
+
+  console.log({ x, y })
 
   return (
     <>
