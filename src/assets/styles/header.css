@@ -1,0 +1,39 @@
+header {
+  background-color: #b71c1c;
+  height: 40px;
+  font-size: 14px;
+  color: white;
+}
+
+header h1 {
+  margin: 7px 0 0 10px;
+  float: left;
+  font-size: 20px;
+}
+
+.header-content {
+  float: right
+}
+
+header form input {
+  width: 50vw;
+  margin: 5px 5px 0 0;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #ffcdd2;
+  color: #212121;
+  outline: none;
+  font-size: 16px;
+}
+
+header form .browse {
+  padding: 5px;
+  border: 0;
+  background-color: #fff8e1;
+  border-radius: 5px;
+  font-size: 16.5px;
+  margin-right: 10px;
+  color: #212121;
+}

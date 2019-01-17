@@ -51,6 +51,7 @@
     "lodash": "4.17.11",
     "prop-types": "15.6.2",
     "react": "16.8.0-alpha.0",
-    "react-dom": "16.8.0-alpha.0"
+    "react-dom": "16.8.0-alpha.0",
+    "react-form-uncontrolled": "0.3.2"
   }
 }
