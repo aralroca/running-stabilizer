@@ -5,15 +5,16 @@ import Iframe from './components/Iframe'
 
 import './assets/styles/app.css'
 
+const VIDEO_DEFAULT = '_fVBFE2xw7U'
 export default function App(){
-  const [url, setUrl] = useState('')
-  const onBrowse = useCallback((newUrl) => setUrl(newUrl), [])
+  const [videoID, setVideoID] = useState(VIDEO_DEFAULT)
+  const onBrowse = useCallback(({ id }) => setVideoID(id), [])
 
   useEffect(() => {
-    if(url){
-      console.log('TODO: Prediction here', url)
+    if(videoID){
+      console.log('TODO: Prediction here', videoID)
     }
-  }, [url])
+  }, [videoID])
 
   return (
     <>
@@ -23,17 +24,17 @@ export default function App(){
             name="url"
             type="text"
             required
-            placeholder="Introduce an url"
+            placeholder={`Introduce a youtube video ID (ex: ${VIDEO_DEFAULT})`}
           />
           <button 
             className="browse" 
             type="submit"
           >
-            Browse
+            Start
           </button>
         </Form>
       </Header>
-      <Iframe url={url} />
+      <Iframe videoID={videoID} />
     </>
   )
 }
