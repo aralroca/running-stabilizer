@@ -40,6 +40,18 @@ header form .browse {
   margin-right: 10px;
   color: #212121;
 }
+
+@media(max-width: 500px) {
+  header h1 {
+    display: none
+  }
+  .header-content {
+    clear: both;
+    float: none;
+    text-align: center
+  }
+}
+
 *,
 *::after,
 *::before {
@@ -67,4 +79,4 @@ html, body {
 }
 
 
-/*# sourceMappingURL=2.css.map*/
+/*# sourceMappingURL=0.css.map*/
