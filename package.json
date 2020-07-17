@@ -48,7 +48,7 @@
     "webpack-serve": "2.0.3"
   },
   "dependencies": {
-    "lodash": "4.17.13",
+    "lodash": "4.17.19",
     "prop-types": "15.6.2",
     "react": "16.8.0-alpha.0",
     "react-dom": "16.8.0-alpha.0",
